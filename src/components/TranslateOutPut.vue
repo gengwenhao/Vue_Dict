@@ -1,6 +1,6 @@
 <template>
-  <div v-show="isShow" id="translateOutPut" class="ui segment">
-    <span>查词结果: {{ result }}</span>
+  <div v-if="isShow" id="translateOutPut" class="ui segment">
+    <div>{{ result }}</div>
   </div>
 </template>
 

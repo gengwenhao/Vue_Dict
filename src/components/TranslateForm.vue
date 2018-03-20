@@ -13,7 +13,7 @@
 
             <div class="ten wide field">
               <label for="">语言</label>
-              <select class="ui fluid dropdown" v-model="language">
+              <select @change="formSubmit" class="ui fluid dropdown" v-model="language">
                 <option value="en">英语</option>
                 <option value="yue">粤语</option>
                 <option value="jp">日语</option>

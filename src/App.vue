@@ -8,6 +8,9 @@
       <translate-form v-on:formSubmit="translateText"></translate-form>
       <translate-out-put v-text="result" v-bind:isShow="isShow"></translate-out-put>
     </div>
+    <div class="footer">
+      <span>© gengwenhao.com </span>
+    </div>
   </div>
 
 </template>
@@ -64,4 +67,12 @@
     margin-left: 12px;
     color: #3b546b;
   }
+
+  .footer {
+    position: fixed;
+    bottom: 12px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
 </style>
